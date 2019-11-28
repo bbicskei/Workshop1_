@@ -24,7 +24,7 @@ h1, h2 {
 }
 
 header, section, footer {
-    padding-top: 16px;
+    padding-top: 40px;
     padding-bottom:16px;
     padding-left: 16px;
     padding-right:16px;
@@ -36,4 +36,68 @@ header, section, footer {
 
 p{
     margin-bottom: 1.5em;
+}
+
+.wrap{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* navigation*/
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation a{
+    padding:11px 22px;
+    margin-left:4px;
+}
+.navigation .logo{
+    margin-left:0;
+    margin-right:auto;
+}
+.navigation-content{
+    background-color: lightgreen;
+}
+
+/*intro*/
+.two-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:54px;
+}
+
+.intro h1{
+    text-align: left;
+}
+
+
+
+
+/*offline*/
+.offline h1{
+    text-align: left;
+}
+
+/* faq*/
+.faq h2{
+    text-align: left;
+}
+
+.faq ul{
+    margin-left:20px;
+}
+
+.faq .two-columns{
+    gap:37px;
+}
+
+/*summary*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 282px 282px;
+    grid-gap: 15px;
 }
