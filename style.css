@@ -60,13 +60,22 @@ p{
 .navigation a{
     padding:11px 22px;
     margin-left:4px;
+    text-decoration: none;
+    color:grey;
 }
 .navigation .logo{
     margin-left:0;
     margin-right:auto;
 }
-.navigation-content{
-    background-color: lightgreen;
+.navigation-contact{
+    background-color: #4bcc8c;
+}
+.navigation-contact:hover{
+    background-color: rgb(137, 27, 216);
+}
+
+.navigation a:hover{
+    text-decoration: underline;
 }
 
 /*intro*/
@@ -82,11 +91,11 @@ p{
 
 
 
-
 /*offline*/
 .offline h1{
     text-align: left;
 }
+
 
 /* faq*/
 .faq h2{
@@ -101,12 +110,13 @@ p{
     gap:37px;
 }
 
+
 /*testimonial*/
 .two-cards {
     display:grid;
     grid-template-columns: 1fr 1fr;
     background-color: lightgoldenrodyellow;
-    grid-gap: 10px;
+    grid-gap: 60px;
 }
 
 /*summary*/
