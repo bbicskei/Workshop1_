@@ -52,6 +52,25 @@ p{
     margin-right:auto;
 }
 
+img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 20%);
+}
+
+/* Header*
+ha mappában van a fájlon belül az asset akkor "mappanév/fájlnévként" illesztjük be az url(be)*/
+
+header{
+    background-color: blue;
+    background-image: url("top_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom; /*így fogja úgy resize-olni, hogy ha kisebb a képernyő, hogy balfelső sarokból fogja shrinkkelni.*/
+    background-size: cover; /*streches the image to the widht*/
+    color:white;
+    padding-bottom: 510px;
+}
+
 /* navigation*/
 .navigation {
     display: flex;
@@ -61,11 +80,18 @@ p{
     padding:11px 22px;
     margin-left:4px;
     text-decoration: none;
-    color:grey;
+    color:white;
 }
 .navigation .logo{
     margin-left:0;
     margin-right:auto;
+    text-decoration:none;
+    width: 145px;
+    height: 28px;
+}
+
+svg {
+    width:100%;
 }
 .navigation-contact{
     background-color: #4bcc8c;
@@ -77,6 +103,18 @@ p{
 .navigation a:hover{
     text-decoration: underline;
 }
+.navigation .hamburger{
+    display:none;
+}
+
+@media (max-width: 900px) {
+    .navigation .hamburger {
+        display:block;}
+    .nav-item{
+        display:none;
+    }
+}
+
 
 /*intro*/
 .two-columns{
