@@ -88,8 +88,12 @@ header .header-contact{
     padding:12px 15px;
     border:1px solid #4bcc8c;
     color:#4bcc8c;
+    text-decoration: none;
 }
-
+.header-contact:hover{
+    color: white;
+    border: 1px solid white;
+}
 
 /* navigation*/
 .navigation {
