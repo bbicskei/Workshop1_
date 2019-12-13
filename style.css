@@ -67,9 +67,29 @@ header{
     background-repeat: no-repeat;
     background-position: right bottom; /*így fogja úgy resize-olni, hogy ha kisebb a képernyő, hogy balfelső sarokból fogja shrinkkelni.*/
     background-size: cover; /*streches the image to the widht*/
-    color:white;
-    padding-bottom: 510px;
+    padding-bottom: 325px;
+    color: white;
 }
+
+header h1{
+    color: white;
+    font-size: 52px;
+    text-align: left;
+    margin-top:181px;
+    margin-bottom:25px;
+}
+header p{
+    font-size: 28px;
+    max-width: 550px;
+    margin-bottom: 50px;
+}
+
+header .header-contact{
+    padding:12px 15px;
+    border:1px solid #4bcc8c;
+    color:#4bcc8c;
+}
+
 
 /* navigation*/
 .navigation {
