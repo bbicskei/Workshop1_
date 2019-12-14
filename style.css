@@ -172,9 +172,14 @@ svg {
     margin-bottom: 8px;
     font-size: 20px;
 }
-.two-cards p{
-    margin-bottom: 8px;
+.two-cards a{
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: #172735;
+    font-weight: bold; /*itt ahovert nemtudommegcsin*/
+    font-size: 14px;
 }
+
 .two-cards .subline{
     color: rgba(23, 39, 53, 0.6);
     margin-top: 0;
@@ -186,7 +191,13 @@ svg {
     line-height: 1.56;
     font-size:18px; 
 } /*nem sikerült pixelpontosra ez a kártya :D*/
-
+.testimonial .underline{
+    width:102px;
+    height:2px;
+    background: linear-gradient(to right, #5f35d4, #62ebff);
+    padding:0;
+    margin:0;
+}
 
 /*offline*/
 .offline h1{
