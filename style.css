@@ -51,7 +51,7 @@ p{
 img{
     width: 100%;
     border-radius: 8px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 20%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 10%);
 }
 
 /* Header*
