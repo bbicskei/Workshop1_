@@ -166,6 +166,8 @@ svg {
     background-color: white;
     padding:40px;
     border-radius: 8px;
+    display:block;
+    position:relative;
 }
 
 .two-cards h3{
@@ -180,10 +182,28 @@ svg {
     font-weight: bold; /*itt ahovert nemtudommegcsin*/
     font-size: 14px;
 }
+.biztositaslogo{
+    width: 154px;
+    position:absolute;
+    top: 50px;
+    right: 40px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.innoniclogo{
+    width: 50px;
+    box-shadow:none;
+    position: absolute;
+    right:40px;
+    top:40px;
+    border-radius: 0;
+}
 
 .two-cards .subline{
     color: rgba(23, 39, 53, 0.6);
     margin-top: 0;
+    font-size: 16px;
 }
 .testimonial blockquote{
     font-family: Crimson Text;
